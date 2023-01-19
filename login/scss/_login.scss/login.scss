@@ -1,24 +1,4 @@
-*, 
-*::before,
-*::after{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
-html{
-    font-size: 62.5%;
-    font-family: sans-serif;
-}
-
-body{
-    font-size: 2rem;
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+@use "../reset.scss";
 
 .form{
     position: relative;
@@ -82,7 +62,7 @@ body{
     height: 4rem;
     border: none;
     background: white;
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 .form__input--email{
@@ -90,6 +70,7 @@ body{
 }
 
 .form__input--password{
+    font-size: 1.5rem;
     border-bottom: .2rem solid #FFD495;
 }
 
@@ -129,4 +110,3 @@ body{
     border-bottom-left-radius: 1.5rem;
     gap: 1rem;
 }
-
