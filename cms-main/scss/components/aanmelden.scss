@@ -1,0 +1,103 @@
+.formAanmelden{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50rem;
+    height: 45rem;
+    border-radius: 1.5rem;
+    box-shadow: 0rem 0rem 4rem 1rem rgba(0,0,0, .2);
+}
+
+.formAanmelden__header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 15%;
+    border-top-right-radius: 1.5rem;
+    border-top-left-radius: 1.5rem;
+    background: #FFD495;
+}
+
+.formAanmelden__section{
+    padding-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: transparent;
+    width: 100%;
+    height: 67%;
+    gap: 7rem;
+}
+
+.formAanmelden__div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 0%;
+}
+
+.formAanmelden__figure{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    width: 4rem;
+    height: 4rem;
+    border-bottom: .2rem solid #FFD495;
+}
+
+.icon,
+.email{
+    color: #FFD495;
+}
+
+.formAanmelden__input{
+    width: 60%;
+    height: 4rem;
+    border: none;
+    background: white;
+    font-size: 2rem;
+    border-bottom: .2rem solid #FFD495;
+
+}
+
+.formAanmelden__input--submit{
+    border: none;
+    border-radius: 1rem;
+    background: #FFD495;
+}
+
+.formAanmelden__input--submit:hover{
+    cursor: pointer;
+}
+
+.formAanmelden__a{
+    bottom: 37%;
+    text-decoration: none;
+    color: grey;
+}
+
+.formAanmelden__a--password{
+    position: absolute;
+}
+
+.formAanmelden__a:hover{
+    color: black;
+}
+
+.formAanmelden__footer{
+    width: 100%;
+    height: 18%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    border-bottom-right-radius: 1.5rem;
+    border-bottom-left-radius: 1.5rem;
+    gap: 1rem;
+}
